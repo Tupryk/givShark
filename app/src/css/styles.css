@@ -1,0 +1,26 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    transition: left 1s; /*Added transition*/
+}
+  
+/*
+img {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+@keyframes move-image {
+    0% { top: 50px; left: 50px; }
+    100% { top: 200px; left: 500px; }
+}
+
+img {
+    animation-name: move-image;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+*/

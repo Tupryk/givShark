@@ -1,0 +1,10 @@
+.error_block h2{
+    text-align: center;
+}
+
+.error_block img {
+    width: 30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

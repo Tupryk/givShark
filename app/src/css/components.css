@@ -1,0 +1,32 @@
+.top_nav {
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    background-color: #9CB9CC;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index:100;
+}
+
+.title {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.top_block {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.top_side {
+    display: flex;
+    padding-top: 1.5em;
+}
+
+.top_link {
+    margin-right: 2em;
+    margin-left: 2em;
+}
