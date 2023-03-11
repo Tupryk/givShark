@@ -1,0 +1,38 @@
+.community_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.fanarts {
+    width: 80%;
+}
+
+.fanart_box {
+    margin: 2em;
+    padding: 1em;
+    width: 15em;
+    outline-style: dashed;
+    display: inline-block;
+    justify-content: center;
+}
+
+.fanart_box img {
+    width: 100%;
+}
+
+.community_sections {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 75px;
+    right: 0;
+    height: 100%;
+    width: 25%;
+    background-color: #9CB9CC;
+}
+
+.community_sections a {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}

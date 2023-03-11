@@ -1,0 +1,45 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.entry {
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #9CB9CC;
+    width: 40em;
+}
+
+.entry img {
+    margin-left: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.basic_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.basic_info p {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 10%;
+}
+
+.filters {
+    margin-left: 30%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.filters select {
+    margin: 1%;
+    background-color: #BED1DF;
+}

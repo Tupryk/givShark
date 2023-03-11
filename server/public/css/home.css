@@ -1,0 +1,54 @@
+.main_image img {
+    width: 30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_image {
+    margin: auto;
+}
+
+.main_parag {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.par {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.intro img {
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index: -10;
+    filter: brightness(50%);
+}
+
+.intro_text {
+    display: block;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    position: absolute;
+    top: 30em;
+    color: white;
+    width: 60%
+}
+
+.intro_text h1 {
+    font-size: 5em;
+}
+
+.intro_text p {
+    font-size: 1.5em;
+}
